@@ -1,0 +1,52 @@
+.contaneir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 500px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px; 
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+.mensagem{
+    border-radius: 15px;
+    resize: none;
+}
+
+input{
+    padding-top: 10px;
+    border-radius: 10px
+}
+
+
+button{
+    margin-bottom: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(157, 158, 159);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-justify: center;
+    border-radius: 15px;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+    font-size: 1.0rem;
+
+}
